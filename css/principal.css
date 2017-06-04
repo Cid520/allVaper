@@ -1,5 +1,6 @@
 html, body {
 	font-family: 'EB Garamond', serif;
+	background-color: #FFFFFF;
 	height: 100%;
 	width: 100%;
 }
@@ -86,11 +87,10 @@ body footer content figure a img{
 	height: 30px;
 	margin: 25% 8px 0px 8px;
 }
-body .contenido{
-	/*clear: both;
-	height: 222px;*/
-	height: 100%;
-}
+/*body .contenido{
+	clear: both;
+	height: 222px;
+}*/
 
 
 /* MOBILE FIRST, RESPONSIVE */
