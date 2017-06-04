@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>All's Vapers</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/principal.css">
+
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/sammy-0.5.4.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){ });
+        var ratPack = $.sammy(function() {
+          this.element_selector = '#content'; 
+		  this.get('#/principal', function(context) {
+ 			  $("#content").load('fragments/inicio.html');
+			});						   
+			
+			/*this.element_selector = '#content'; 
+		  this.get('#/tienda', function(context) {
+ 			  $("#contenido").load('li-tienda.php');
+			});*/
+  		  				  
+        });
+        $(function() {
+          ratPack.run('#/principal');
+        });
+	</script>
+</head>
+<body>
+<header>
+	<h1>ALL'S VAPERS</h1>
+	<h2>RESISTENCIAS ARTESANALES</h2>
+	<nav>
+		<ul>
+			<li><a title="" href="#/principal">Inicio</a></li>
+			<li><a title="" href="#">Equipos</a></li>
+			<li><a title="" href="#">Liquidos</a></li>
+			<li><a title="" href="#">Resistencias Artsanales</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="content">
+        
+			
+</div>
+<footer>
+	<content>
+		<h3>INFORMACIÓN</h3>
+		<ul>
+			<li><a title="" href="#">¿Que es un cigarro electronico?</a></li>
+			<li><a title="" href="#">Beneficios del cigarro electronico</a></li>
+			<li><a title="" href="#">¿Que es una resistencia?</a></li>
+			<li></li>
+		</ul>
+	</content>
+	<content>
+		<h3>CONTACTO</h3>
+		<ul>
+			<li>Whatsapp: 5514387910</li>
+			<li>Correo: xxxxx@gmail.com</li>
+			<li>Oficina: 65496979</li>
+		</ul>
+		<p>La Loma, Tlalnemex Estado de México, México</p>
+		<p>Horario de atención a clientes de 10 a 20 horas de lunes a viernes.</p>
+	</content>
+	<content>
+		<h3>SIGUENOS</h3>
+		<figure>
+			<a title="Facebook" href="https://facebook.com/" target="_blank"><img src="images/facebook-128.png" alt="facebook"></a>
+		</figure>
+		<figure>
+			<a title="Instagram" href="https://instagram.com/" target="_blank"><img src="images/Instagramlogo.png" alt="twitter"></a>
+		</figure>
+		<figure>
+			<a title="Twitter" href="https://twitter.com/" target="_blank"><img src="images/twitter-128.png" alt="instagram"></a>
+		</figure>
+	</content>
+</footer>
+</body>
+</html>
