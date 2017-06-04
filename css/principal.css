@@ -106,9 +106,9 @@ body footer content figure a img{
 	}
 }
 @media screen and (min-width: 480px){
-	body{
+	/*body{
 		background-color: orange;
-	}
+	}*/
 	body header h1{
 		font-size: 39px;
 	}
@@ -138,10 +138,10 @@ body footer content figure a img{
 	}
 }
 @media screen and (min-width: 767px){
-	body{
+	/*body{
 		background-color: green;
 	}
-	/*body header h1{
+	body header h1{
 		font-size: 40px;
 	}
 	body header h2{
@@ -177,9 +177,9 @@ body footer content figure a img{
 	}
 }
 @media screen and (min-width: 950px){
-	body{
+	/*body{
 		background-color: blue;
-	}
+	}*/
 	body header nav ul li a{
 		color: #FFFFFF;
 		text-decoration: none;
