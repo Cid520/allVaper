@@ -1,4 +1,4 @@
-html, body {
+body {
 	background-color: #FFFFFF;
 	/*height: 100%;
 	width: 100%;*/
@@ -38,17 +38,17 @@ figure.slider figure {
 figure.slider img { width: 100%; height: auto; }
 
 /* MOBILE FIRST, RESPONSIVE */
-@media screen and (min-width: 480px){
+@media screen and (min-device-width: 480px){
 	/*body{
 		background-color: orange;
 	}*/
 }
-@media screen and (min-width: 767px){
+@media screen and (min-device-width: 767px){
 	/*body{
 		background-color: green;
 	}*/
 }
-@media screen and (min-width: 950px){
+@media screen and (min-device-width: 950px){
 	/*body{
 		background-color: blue;
 	}*/
