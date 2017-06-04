@@ -192,9 +192,3 @@ body footer content figure a img{
 		margin: 25% 20px 0px 20px;
 	}
 }
-
-@media handheld{
-	body header{
-		background-color: blue;
-	}
-}
