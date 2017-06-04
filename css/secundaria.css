@@ -38,13 +38,13 @@ figure.slider figure {
 figure.slider img { width: 100%; height: auto; }
 
 /* MOBILE FIRST, RESPONSIVE */
-@media screen and (min-device-width: 341px){}
-@media screen and (min-device-width: 480px){
+@media screen and (min-width: 341px){}
+@media screen and (min-width: 480px){
 	/*body{
 		background-color: orange;
 	}*/
 }
-@media screen and (min-device-width: 767px){
+@media screen and (min-width: 767px){
 	/*body{
 		background-color: green;
 	}*/
@@ -54,7 +54,7 @@ figure.slider img { width: 100%; height: auto; }
   		margin-left: 25%;
   	}
 }
-@media screen and (min-device-width: 950px){
+@media screen and (min-width: 950px){
 	/*body{
 		background-color: blue;
 	}*/
