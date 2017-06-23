@@ -12,7 +12,7 @@ body header div figure img{
 }
 body header div{
 	float: left;
-	width: 70%;
+	width: 100%;
 }
 body header h1, h2{
 	font-family: 'Metamorphous', cursive;
@@ -26,9 +26,9 @@ body header h1{
 }
 body header h2{
 	text-indent: 10%;
-	padding-bottom: 33px;
+	padding-bottom: 5px;
 	margin-top: 7px;
-	font-size: 20px;
+	font-size: 21px;
 }
 body header nav ul{
 	list-style: none;
@@ -95,9 +95,11 @@ body footer content figure a img{
 	height: 30px;
 	margin: 25% 8px 0px 8px;
 }
-body header .divlogo{
-	width: 20%;
-	height: 500px;
+body header #divlogo{
+	width: 0%;
+}
+body header div figure img{
+	visibility: none;
 }
 /*body .contenido{
 	clear: both;
@@ -107,9 +109,6 @@ body header .divlogo{
 
 /* MOBILE FIRST, RESPONSIVE */
 @media screen and (min-width: 341px){
-	body header h2{
-		padding-bottom: 33px;
-	}
 	body header nav ul li{
 		margin-right:20px;
 	}
@@ -127,6 +126,9 @@ body header .divlogo{
 	body header h2{
 		padding-bottom: 46px;
 		font-size: 24px;
+	}
+	body header nav ul li{
+		margin-right:15px;
 	}
 	body header nav ul li a{
 		font-size: 15px;
@@ -164,11 +166,11 @@ body header .divlogo{
 		font-size: 15px;
 	}*/
 	body header h1{
-		font-size: 48px;
+		font-size: 46px;
 	}
 	body header h2{
 		padding-bottom: 15px;
-		font-size: 34px;
+		font-size: 32px;
 	}
 	body footer content h3{
 		font-size: 16px;
@@ -186,6 +188,17 @@ body header .divlogo{
 		width: 40px;
 		height: 40px;
 		margin: 40% 15px 0px 15px;
+	}
+	body header #divlogo{
+		width: 20%;
+	}
+	body header div figure img{
+		margin-top: 15%;
+		width: 155px;
+		height: 155px;
+	}
+	body header div{
+		width: 80%;
 	}
 }
 @media screen and (min-width: 950px){
@@ -213,5 +226,10 @@ body header .divlogo{
 		width: 50px;
 		height: 50px;
 		margin: 25% 20px 0px 20px;
+	}
+	body header div figure img{
+		margin-top: 1.5%;
+		width: 190px;
+		height: 190px;
 	}
 }
