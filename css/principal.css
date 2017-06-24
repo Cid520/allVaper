@@ -7,8 +7,7 @@ body header{
 	height: 200px;
 }
 body header div figure img{
-	width: 190px;
-	height: 190px;
+	display: none;
 }
 body header div{
 	float: left;
@@ -193,6 +192,7 @@ body header div figure img{
 		width: 20%;
 	}
 	body header div figure img{
+		display: block;
 		margin-top: 15%;
 		width: 155px;
 		height: 155px;
