@@ -230,13 +230,13 @@ body #avcont p{
 		right: 6%;
 	}
 	body #avcont h3{
-		font-size: 22px;
+		font-size: 20px;
 	}
 	body #avcont h4{
-		font-size: 80px;
+		font-size: 70px;
 	}
 	body #avcont p{
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 @media screen and (min-width: 767px){
@@ -289,16 +289,6 @@ body #avcont p{
 	body header div{
 		width: 80%;
 	}
-	body #avcont{
-		top: 30%;
-		left: 20%;
-		right: 20%;
-		bottom: 30%;
-	}
-	body #cerrar + label{
-		top: 28%;
-		right: 19%;
-	}
 	body #avcont h3{
 		font-size: 30px;
 	}
@@ -339,5 +329,15 @@ body #avcont p{
 		margin-top: 2%;
 		width: 190px;
 		height: 190px;
+	}
+	body #avcont{
+		top: 30%;
+		left: 20%;
+		right: 20%;
+		bottom: 30%;
+	}
+	body #cerrar + label{
+		top: 28%;
+		right: 19%;
 	}
 }
