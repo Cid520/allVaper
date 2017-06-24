@@ -102,6 +102,65 @@ body header #divlogo{
 body header div figure img{
 	visibility: none;
 }
+
+body #aviso{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+}
+body #avcont{
+	background-color: white;
+	margin: 0 auto;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	right: 5%;
+	bottom: 10%;
+	border-radius: 10px;
+	box-shadow: 0px 5px 50px rgba(0,0,0,1);
+	text-align: center;
+	/*padding-right: 15px;
+	padding-left: 15px;*/
+}
+body #cerrar{
+	display: none;
+}
+body #cerrar + label{
+	position: absolute;
+	color: #FFFFFF;
+	background: darkred;
+	z-index: 50;
+	border-radius: 50%;
+	top: 7%;
+	right: 4%;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+
+body #cerrar:checked + label, #cerrar:checked ~ #aviso{
+	display: none;
+}
+body #avcont h3{
+	margin-bottom: 0px;
+	font-size: 20px;
+	color: red;
+}
+body #avcont h4{
+	margin: 0px;
+	font-size: 80px;
+	color: black;
+}
+body #avcont p{
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 17px;
+}
 /*body .contenido{
 	clear: both;
 	height: 222px;
@@ -115,6 +174,15 @@ body header div figure img{
 	}
 	body header nav ul li a{
 		font-size: 13px;
+	}
+	body #avcont h3{
+		font-size: 25px;
+	}
+	body #avcont h4{
+		font-size: 95px;
+	}
+	body #avcont p{
+		font-size: 21px;
 	}
 }
 @media screen and (min-width: 480px){
@@ -150,6 +218,16 @@ body header div figure img{
 		width: 50px;
 		height: 50px;
 		margin: 45% 8px 0px 8px;
+	}
+	body #avcont{
+		top: 30%;
+		left: 20%;
+		right: 20%;
+		bottom: 30%;
+	}
+	body #cerrar + label{
+		top: 28%;
+		right: 19%;
 	}
 }
 @media screen and (min-width: 767px){
@@ -233,5 +311,14 @@ body header div figure img{
 		margin-top: 2%;
 		width: 190px;
 		height: 190px;
+	}
+	body #avcont h3{
+		font-size: 30px;
+	}
+	body #avcont h4{
+		font-size: 120px;
+	}
+	body #avcont p{
+		font-size: 20px;
 	}
 }
