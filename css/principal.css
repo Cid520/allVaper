@@ -16,7 +16,9 @@ body header div{
 body header h1, h2{
 	font-family: 'Metamorphous', cursive;
 	font-weight: normal;
-	color: #F1F40A;
+	text-shadow: 3px 3px 2px #C145FA;
+	color: #FFFFFF;
+	/*color: #F1F40A;*/
 }
 body header h1{
 	text-indent: 5%;
@@ -46,7 +48,7 @@ body header nav ul li a{
 }
 body header nav ul li a:hover {
     color: #A6A6A6;
-    border-bottom: 2px solid #F1F40A;
+    border-bottom: 2px solid #C145FA;
 }
 body footer{
 	background-color: #000000;
@@ -229,7 +231,7 @@ body header div figure img{
 	}*/
 	body header div figure img{
 		margin-top: 1.5%;
-		width: 185px;
-		height: 185px;
+		width: 190px;
+		height: 190px;
 	}
 }
