@@ -54,6 +54,7 @@ body footer{
 	background-color: #000000;
 	height: 220px;
 	color:#808080;
+	display: none;
 }
 body footer content{
 	float: left;
@@ -143,8 +144,15 @@ body #cerrar + label{
 	cursor: pointer;
 }
 
+body #content{
+	display: none;
+}
+
 body #cerrar:checked + label, #cerrar:checked ~ #aviso{
 	display: none;
+}
+body #cerrar:checked ~ footer, #cerrar:checked ~ #content{
+	display: block;
 }
 body #avcont h3{
 	margin-bottom: 0px;
